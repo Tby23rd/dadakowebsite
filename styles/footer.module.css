@@ -1,0 +1,122 @@
+/* Footer.module.css */
+
+.footerContainer {
+    background-color:  rgb(6, 63, 68);
+    color:rgb(255, 255, 255);
+    width: 100%;
+}
+/* Style anchor elements within .footerContainer */
+.footerContainer a {
+    color: rgb(251, 252, 252); /* Set the text color for anchor elements */
+    text-decoration: none; /* Remove default underline from anchor elements */
+    transition: color 0.3s ease; /* Add a smooth transition effect for color change */
+}
+
+/* Style anchor elements on hover within .footerContainer */
+.footerContainer a:hover {
+    color: rgb(255, 255, 255); /* Change text color on hover */
+}
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    padding-bottom: 1%;
+}
+
+.footerItem {
+    margin-bottom: 20px;
+}
+
+.footerText {
+    font-size: larger;
+    padding: 5px;
+    cursor: pointer;
+    color: rgb(255, 255, 255); /* Set the text color for anchor elements */
+}
+.footerTitle{
+    font-size: medium;
+    font-weight: bolder;
+    text-align: center;
+    width: 200px; /* Make the input take the full width of its container */
+    padding: 15px; /* Add padding for better aesthetics */
+    color: rgb(250, 251, 252); /* Set the text color for anchor elements */
+
+}
+/* Define styles for the emailInput */
+.emailInput {
+    width: 500px; /* Make the input take the full width of its container */
+    padding: 10px; /* Add padding for better aesthetics */
+    border: 1px solid #ccc; /* Add a border for the input */
+    border-radius: 20px; /* Add border-radius for rounded corners */
+    color: #333; /* Set text color */
+    text-align: center;
+}
+
+.subscribeTitle{
+    font-size: medium;
+    width: 500px;
+    color: rgb(252, 252, 253); /* Set the text color for anchor elements */
+}
+.subscribeText{
+    width: 500px;
+    padding: 10px; /* Add padding for better aesthetics */
+    font-size: larger;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+    color: rgb(251, 252, 253); /* Set the text color for anchor elements */
+}
+/* Define styles for the subscribeButton */
+.subscribeButton {
+    width: 500px;
+    padding: 10px; /* Add padding for better aesthetics */
+    background-color: #C13E96; /* Darken the background color on hover */
+    color: white; /* Set text color */
+    font-weight: bold;
+    border: none; /* Remove default border */
+    border-radius: 20px; /* Add border-radius for rounded corners */
+    cursor: pointer; /* Add pointer cursor */
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+}
+
+ 
+/* Style the button on hover */
+.subscribeButton:hover {
+    background-color: #c21a8a;/* Set background color */
+}
+
+.footerBottom {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.socialIcons {
+    display: flex;
+    gap: 20px;
+}
+
+/* Add styles for responsiveness */
+
+@media screen and (max-width: 768px) {
+    .footerContent {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footerText, .footerTitle, .subscribeText{
+        font-size: medium;
+    }
+    .footerItem {
+        width: 100%;
+        /* Full width on smaller screens */
+        margin-bottom: 20px;
+    }
+    .socialIcons {
+        margin-top: 20px;
+    }
+    
+    .subscribeButton,.subscribeText,.emailInput{
+        width: 90%;
+        margin: auto;
+    }
+}
