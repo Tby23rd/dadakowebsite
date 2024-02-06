@@ -7,6 +7,7 @@ const IntroductionSection: React.FC = () => {
 <div>
     <h1 className="text-3xl font-bold mb-4">Why Choose Us?</h1>
       <div className="flex flex-wrap justify-between">
+        
         {whyChooseUsData.map((section, index) => (
           <div key={index} className="w-full md:w-1/2  lg:w-1/3 p-8">
             <div key={index} className="bg-white dark:bg-gray-800 p-4 my-4 rounded-lg shadow-inner">
