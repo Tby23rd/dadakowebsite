@@ -1,13 +1,11 @@
 /* Footer.module.css */
 
 .footerContainer {
-    background-color:  rgb(6, 63, 68);
-    color:rgb(255, 255, 255);
     width: 100%;
+    background-color: white;
 }
 /* Style anchor elements within .footerContainer */
 .footerContainer a {
-    color: rgb(251, 252, 252); /* Set the text color for anchor elements */
     text-decoration: none; /* Remove default underline from anchor elements */
     transition: color 0.3s ease; /* Add a smooth transition effect for color change */
 }
@@ -31,7 +29,6 @@
     font-size: larger;
     padding: 5px;
     cursor: pointer;
-    color: rgb(255, 255, 255); /* Set the text color for anchor elements */
 }
 .footerTitle{
     font-size: medium;
@@ -39,7 +36,6 @@
     text-align: center;
     width: 200px; /* Make the input take the full width of its container */
     padding: 15px; /* Add padding for better aesthetics */
-    color: rgb(250, 251, 252); /* Set the text color for anchor elements */
 
 }
 /* Define styles for the emailInput */
@@ -65,7 +61,6 @@
     text-align: center;
     cursor: pointer;
     font-weight: bolder;
-    color: rgb(251, 252, 253); /* Set the text color for anchor elements */
 }
 /* Define styles for the subscribeButton */
 .subscribeButton {

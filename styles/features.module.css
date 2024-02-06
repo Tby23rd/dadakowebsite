@@ -13,7 +13,7 @@
     margin-bottom: 20px;
     padding: 10px;
     /* Smaller padding */
-    background-color:  rgb(156, 209, 214);
+    background-color: #fff;
     border-radius: 8px;
     text-align: center;
 }
@@ -23,7 +23,8 @@
     /* Smaller icon size */
     margin-bottom: 5px;
     /* Smaller margin */
-    color: rgb(255, 255, 255);
+    color:  rgb(6, 63, 68);
+
 }
 
 .featureTitle {
@@ -32,7 +33,7 @@
     /* Smaller title font size */
     margin-bottom: 5px;
     /* Smaller margin */
-    color: rgb(255, 255, 255);
+    color:  rgb(6, 63, 68);
 }
 .featureDescription {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -40,7 +41,6 @@
     /* Smaller title font size */
     margin-bottom: 5px;
     /* Smaller margin */
-    color: rgb(255, 255, 255);
 }
 
 /* Media query for screens up to 768px */

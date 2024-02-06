@@ -54,12 +54,6 @@ const Features: React.FC = () => {
               description: 'We offer tailored software solutions to meet specific client needs, providing a unique blend of creativity and technical expertise.',
             },
             {
-                icon: <MobileIcon />,
-
-              title: 'Mobile App Development',
-              description: 'Our team creates mobile applications for both iOS and Android platforms, leveraging the latest mobile app development frameworks and tools.',
-            },
-            {
                 icon: <WebIcon />,
 
               title: 'Web Development Services',
@@ -91,7 +85,8 @@ const Features: React.FC = () => {
         
   return (
     <div>
-      <h1 className={styles.featuresHeader}>Our Features</h1>
+        <h1 className="text-4xl font-bold">
+        Our Features</h1>
       <FeaturesContainer features={featureData} />
     </div>
   );

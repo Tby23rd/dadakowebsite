@@ -15,8 +15,8 @@ const Footer: React.FC=() => {
       <div className={styles.footerContent}>
         <div className={styles.footerItem}>
           <h3 className={styles.footerTitle}>Contact Us</h3>
-          <p className={styles.footerText}>Email: info@yourcafe.com</p>
-          <p className={styles.footerText}>Phone: (123) 456-7890</p>
+          <p className={styles.footerText}>Email: heather@dadakosoftware.com</p>
+          <p className={styles.footerText}>Phone: (236)865 8256 </p>
                       {/* Social media links */}
                       <p className={styles.footerText}>
               {' '}
