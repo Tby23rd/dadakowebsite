@@ -19,7 +19,7 @@
 }
 
 .featureIcon {
-    font-size: 3rem;
+    font-size: 2rem;
     /* Smaller icon size */
     margin-bottom: 5px;
     /* Smaller margin */
@@ -28,7 +28,7 @@
 
 .featureTitle {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: large;
+    font-size: medium;
     /* Smaller title font size */
     margin-bottom: 5px;
     /* Smaller margin */
@@ -36,11 +36,10 @@
 }
 .featureDescription {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: medium;
+    font-size: small;
     /* Smaller title font size */
     margin-bottom: 5px;
     /* Smaller margin */
-    text-align: start;
 }
 
 /* Media query for screens up to 768px */

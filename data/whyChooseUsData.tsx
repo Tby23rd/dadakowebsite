@@ -12,47 +12,35 @@ import PartnersIcon from '@mui/icons-material/Handshake';
 export const whyChooseUsData = [
   {
     title: 'Local Company',
-    Icon: LocalAtmIcon,
+    icon: <LocalAtmIcon/>,
     description: 'Local presence with a focus on Calgary.'
   },
   {
     title: 'Customized Solutions',
-    Icon: BuildIcon,
+    icon: <BuildIcon/>,
     description: 'Tailored software solutions for your unique needs.'
   },
   {
     title: 'Expertise in Small Business Development',
-    Icon: BusinessCenterIcon,
+    icon: <BusinessCenterIcon/>,
     description: 'Specialized in helping small businesses succeed.'
   },
-  {
-    title: 'Agile Development Process',
-    Icon: DeveloperBoardIcon,
-    description: 'Efficient workflows with agile methodologies.'
-  },
+  
   {
     title: 'Commitment to Innovation',
-    Icon: InnovationIcon,
+    icon: <InnovationIcon/>,
     description: 'Staying ahead with the latest technologies.'
   },
-  {
-    title: 'Proven Track Record',
-    Icon: HistoryIcon,
-    description: 'Successful projects under our belt.'
-  },
+  
   {
     title: 'Exceptional Client Service',
-    Icon: SupervisorAccountIcon,
+    icon: <SupervisorAccountIcon/>,
     description: 'Clear communication and active involvement in development.'
   },
-  {
-    title: 'Competitive Pricing',
-    Icon: AttachMoneyIcon,
-    description: 'Quality services at competitive rates.'
-  },
+  
   {
     title: 'Sustainable Growth Partnership',
-    Icon: PartnersIcon,
+    icon: <PartnersIcon/>,
     description: 'Your partner in achieving sustainable growth.'
   }
 ];

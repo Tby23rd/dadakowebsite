@@ -1,6 +1,8 @@
 // components/HeroSection.tsx
 import React from 'react';
 import Image from 'next/image';
+import GetInTouchButton from './GetInTouchBtn';
+import Link from 'next/link';
 
 const HeroSection: React.FC = () => {
   return (
@@ -13,12 +15,12 @@ const HeroSection: React.FC = () => {
           At Dadako, we specialize in bringing startup ideas to life through innovative software solutions.
         </p>
         <div className="flex flex-wrap gap-4">
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            Get in Touch
-          </button>
-          <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+          <GetInTouchButton/>
+          <Link href="/Soon" >
+          <button className="bg-transparent hover:bg-teal-900 text-teal-900 font-semibold hover:text-white py-2 px-4 border border-teal-900 hover:border-transparent rounded">
             View Our Work
           </button>
+          </Link>
         </div>
       </div>
       <div className="flex-1">

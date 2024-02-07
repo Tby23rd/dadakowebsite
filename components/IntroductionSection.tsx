@@ -1,9 +1,27 @@
 // components/IntroductionSection.tsx
 import React from 'react';
-import { whyChooseUsData } from '../data/whyChooseUsData';
+import {whyChooseUsData} from '../data/whyChooseUsData';
+import styles from '../styles/IntroductionSection.module.css';
 
-const IntroductionSection: React.FC = () => {
+
+const IntroductionSection: React.FC=() => {
+
   return (
+    <div >        
+      <h1 className="text-4xl font-bold">Why Choose Us</h1>
+    <div className={styles.featuresContainer}>
+      {whyChooseUsData.map((section,index) => (
+        <div key={index} className={styles.feature}>
+          <div className={styles.featureIcon}>{section.icon}</div>
+          <h2 className={styles.featureTitle}>{section.title}</h2>
+        </div>
+      ))}
+    </div>
+    </div>
+  );
+};
+
+{/** 
     <div>
               <h1 className="text-4xl font-bold">Why Choose Us </h1>
       <div className="flex flex-wrap justify-between">
@@ -18,9 +36,9 @@ const IntroductionSection: React.FC = () => {
                   <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
                     {section.title}
                   </h2>
-                
               </div>
             </div>
+            
           );
         })}
       </div>
@@ -28,4 +46,10 @@ const IntroductionSection: React.FC = () => {
   );
 };
 
+*/}
+
+
 export default IntroductionSection;
+
+
+

@@ -7,6 +7,7 @@ import News from './api/news'; // Adjust the import path based on your project s
 import Footer from '../components/Footer';
 import IntroductionSection from '@/components/IntroductionSection';
 import About from './About';
+import FaqPage from './FAQ';
 
 
 const Home: React.FC = () => {
@@ -15,10 +16,11 @@ const Home: React.FC = () => {
     <div className='bg-gray-100'>
       <Navbar/>
       <HeroSection/>
-      <About/>
       <IntroductionSection/>
+      <About/>
       <Features />
       <News />
+      <FaqPage/>
       <Footer/>
     </div>
   );

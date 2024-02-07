@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import GetInTouchButton from "./GetInTouchBtn";
 
 const Navbar: React.FC = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -96,10 +97,8 @@ const Navbar: React.FC = () => {
         </AnimatePresence>
 
         {isNavOpen && (
-          <div className="flex justify-end">
-            <button className="bg-blue-500 whitespace-nowrap hover:bg-blue-700 text-white font-bold p-2 px-4 rounded">
-            Get in Touch
-          </button>
+          <div className="flex  m-2  justify-end">
+            <GetInTouchButton/>
             {/* Theme Switcher */}
           </div>
         )}
