@@ -12,10 +12,9 @@ const Soon = () => {
       <div className="text-center">
         <h1 className="text-5xl font-bold text-white mb-4">Coming Soon</h1>
         <p className="text-lg text-white mb-8">We&apos;re working hard to bring you something awesome!</p>
-        <Image
+        <Image src="/images/logo1.webp"
           width={200}
           height={200}
-          src="/images/logo1.webp"
           alt="Dadako Logo"
           className="mx-auto w-40 animate-pulse"
         />
