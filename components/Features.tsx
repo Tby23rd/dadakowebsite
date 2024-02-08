@@ -86,7 +86,7 @@ const Features: React.FC = () => {
         
   return (
     <div>
-        <h1 className="text-4xl font-bold">
+        <h1 className="text-4xl font-bold dark:text-white">
         Our Features</h1>
       <FeaturesContainer features={featureData} />
     </div>

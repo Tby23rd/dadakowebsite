@@ -7,7 +7,7 @@ import '../app/globals.css'; // Adjust the path based on your file structure
 
 const FaqPage: React.FC = () => {
   return (<div id='faq'>
-<h1 className="text-4xl font-bold">
+<h1 className="text-4xl font-bold dark:text-white">
         Contact Us &  Frequently Asked Questions
       </h1> 
     

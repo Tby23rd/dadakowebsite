@@ -48,7 +48,7 @@ const NewsComponent: React.FC=() => {
 
   return (
     <div className="p-6 rounded-lg shadow-lg">
-      <h1 className="text-4xl font-bold">Top News Related to Technology</h1>
+      <h1 className="text-4xl font-bold dark:text-white">Top News Related to Technology</h1>
       <div className="flex flex-row flex-wrap justify-between">
         {articles.map((article, index) => (
           <div key={index} className="lg:w-1/4 md:w-1/2 p-4 bg-white dark:bg-gray-800 rounded-lg shadow-inner mt-1 mb-4">
