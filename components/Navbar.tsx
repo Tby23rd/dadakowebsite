@@ -80,16 +80,16 @@ const Navbar: React.FC = () => {
               transition={{ type: "tween" }}
             >
               {/* Navigation Links */}
-              <a href="/features" className="hover:text-primary-pink rounded-md text-lg font-medium">
+              <a href="/#features" className="hover:text-primary-pink rounded-md text-lg font-medium">
                 FEATURES
               </a>
-              <a href="/pricing" className="hover:text-primary-pink rounded-md text-lg font-medium">
-                PRICING
+              <a href="/#faq" className="hover:text-primary-pink rounded-md text-lg font-medium">
+                FAQ
               </a>
-              <a href="/about" className="hover:text-primary-pink rounded-md text-lg font-medium">
+              <a href="/#about" className="hover:text-primary-pink rounded-md text-lg font-medium">
                 ABOUT
               </a>
-              <a href="/contact" className="hover:text-primary-pink rounded-md text-lg font-medium">
+              <a href="/#contact" className="hover:text-primary-pink rounded-md text-lg font-medium">
                 CONTACT
               </a>
             </motion.div>

@@ -7,7 +7,7 @@ import styles from '../styles/IntroductionSection.module.css';
 const IntroductionSection: React.FC=() => {
 
   return (
-    <div >        
+    <div id='intro'>        
       <h1 className="text-4xl font-bold">Why Choose Us</h1>
     <div className={styles.featuresContainer}>
       {whyChooseUsData.map((section,index) => (

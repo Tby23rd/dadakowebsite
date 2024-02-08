@@ -2,9 +2,11 @@
 import React from 'react';
 import FaqComponent from '../components/FaqComponent';
 import Contact from './Contact';
+import '../app/globals.css'; // Adjust the path based on your file structure
+
 
 const FaqPage: React.FC = () => {
-  return (<div>
+  return (<div id='faq'>
 <h1 className="text-4xl font-bold">
         Contact Us &  Frequently Asked Questions
       </h1> 
