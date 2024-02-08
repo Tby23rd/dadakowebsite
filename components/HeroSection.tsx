@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const HeroSection: React.FC=() => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between bg-white text-gray-800 md:p-20  py-20 px-10">
+    <section className="flex flex-col md:flex-row items-center justify-between bg-white text-gray-800 md:p-20  py-20 px-4">
       <div className="flex-1 mb-8 md:mb-0 md:mr-10" id='hero'>
         <h2 className="text-4xl font-bold">
           Elevate Your Startup with Expert Software Design & Development
