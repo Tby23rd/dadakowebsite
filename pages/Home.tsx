@@ -19,7 +19,6 @@ const Home: React.FC = () => {
       <IntroductionSection/>
       <About/>
       <Features />
-      <News />
       <FaqPage/>
       <Footer/>
     </div>
