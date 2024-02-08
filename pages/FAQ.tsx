@@ -11,7 +11,7 @@ const FaqPage: React.FC = () => {
         Contact Us &  Frequently Asked Questions
       </h1> 
     
-    <div className="flex flex-col md:flex-row items-center justify-between bg-white dark:bg-gray-800 rounded-lg shadow-lg md:p-20 px-4 py-12 md:px-20">
+    <div className="flex flex-col md:flex-row items-center justify-between bg-white rounded-lg shadow-lg md:p-20 px-4 py-12 md:px-20">
       
       <Contact/>
 
