@@ -20,7 +20,6 @@ const Home: React.FC = () => {
       <About/>
       <Features />
       <FaqPage/>
-      <News />
       <Footer/>
     </div>
   );
