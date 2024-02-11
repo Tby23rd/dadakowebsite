@@ -54,12 +54,5 @@ body {
   color: var(--text-color);
   transition: background-color 0.3s, color 0.3s;
 }
-/* Example usage in a component's CSS */
-.text--colors_default {
-  @apply text-gray-900 dark:text-white;
-}
 
-.bg--default {
-  @apply bg-white dark:bg-gray-900;
-}
 

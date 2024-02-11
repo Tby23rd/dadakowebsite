@@ -1,12 +1,9 @@
 // data/whyChooseUsData.ts
 import LocalAtmIcon from '@mui/icons-material/LocalAtm';
 import BuildIcon from '@mui/icons-material/Build';
-import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
-import DeveloperBoardIcon from '@mui/icons-material/DeveloperBoard';
+import WomanIcon from '@mui/icons-material/Woman'; // Assuming you have a suitable icon component named WomanIcon
 import InnovationIcon from '@mui/icons-material/FiberNew';
-import HistoryIcon from '@mui/icons-material/History';
 import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
-import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import PartnersIcon from '@mui/icons-material/Handshake';
 
 export const whyChooseUsData = [
@@ -20,11 +17,11 @@ export const whyChooseUsData = [
     icon: <BuildIcon/>,
     description: 'Tailored software solutions for your unique needs.'
   },
-  {
-    title: 'Expertise in Small Business Development',
-    icon: <BusinessCenterIcon/>,
-    description: 'Specialized in helping small businesses succeed.'
-  },
+    {
+      title: '100% Woman-Owned & Operated',
+      icon: <WomanIcon />, // Assuming you have a suitable icon component named WomanIcon
+      description: 'Exclusively run by women, specializing in supporting other female-led businesses.'
+    },
   
   {
     title: 'Commitment to Innovation',

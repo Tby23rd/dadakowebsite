@@ -8,7 +8,7 @@ const IntroductionSection: React.FC=() => {
 
   return (
     <div id='intro'>        
-      <h1 className="text-4xl font-bold dark:bg-white">Why Choose Us</h1>
+      <h1 className="text-4xl font-bold ">Why Choose Us</h1>
     <div className={styles.featuresContainer}>
       {whyChooseUsData.map((section,index) => (
         <div key={index} className={styles.feature}>

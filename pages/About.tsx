@@ -5,11 +5,13 @@ import Image from 'next/image';
 
 const About: React.FC=() => {
   return (
+    <div> <h1 className="text-4xl font-bold ">
+    About Dadako Software
+  </h1>
     <div className="flex flex-col md:flex-row items-center justify-between bg-white   rounded-lg shadow-lg md:p-20 px-4 py-12 md:px-20">
+     
       <div className="p-6 " id='about'>
-        <h1 className="text-4xl font-bold ">
-          About Dadako Software
-        </h1>
+        
         <div className="max-w-3xl mx-auto">
           <p className="text-black  mb-6">
           Dadako Software is a Calgary-based software company providing startups and small businesses with advanced - yet user-friendly - software solutions. Our mission is to empower you from the ground up, by providing innovative digital tools that are proven to skyrocket company growth and efficiency.          </p>
@@ -25,6 +27,7 @@ const About: React.FC=() => {
           alt="Innovation" width={500}
           height={300} />
       </div>
+    </div>
     </div>
   );
 };
