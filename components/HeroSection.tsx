@@ -17,7 +17,7 @@ const HeroSection: React.FC = () => {
         <i>Immediate Assistance via Live Chat</i>
         <div className="flex flex-wrap pt-4 gap-4">
           <GetInTouchButton />
-          <Link href="/Soon">
+          <Link href="/#portfolio">
           <button className="bg-transparent hover:bg-teal-900 text-teal-900 font-semibold hover:text-white py-2 px-4 border border-teal-900 hover:border-transparent rounded">
               View Our Work
             </button>

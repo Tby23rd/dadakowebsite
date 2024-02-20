@@ -3,7 +3,7 @@ import featuresData from '../data/featureData'; // Adjust the import path as nec
 
 const Features = () => {
   return (
-    <div className="w-full mx-auto p-8 ">
+    <div className="w-full mx-auto p-8 " id='features'>
       <h1 className="mb-10 text-3xl font-bold">Advanced Software Features</h1>
       {/* Reduced gap and padding within grid container */}
       <div className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-5">

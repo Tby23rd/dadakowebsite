@@ -3,11 +3,11 @@ import React from 'react';
 const About: React.FC=() => {
 
   return (
-    <div>
+    <div id='#about'>
       <h1 className="text-4xl font-bold text-center mb-10">
         About Dadako Software
       </h1>
-      <div className="container mx-auto p-4 lg:bg-[url('/images/bg.webp')] lg:bg-cover lg:bg-center">
+      <div className="w-full container mx-auto p-4 lg:bg-[url('/images/bg.webp')] lg:bg-cover lg:bg-center">
         <div className="flex gap-4">
           <p className="text-black mb-6">
             Based in Calgary, Dadako Software is dedicated to empowering startups and small businesses, with a special focus on fostering growth and innovation in women-led ventures. Our tailored software solutions are designed not only to meet the unique challenges faced by these businesses but also to leverage the untapped potential within the women-led entrepreneurial community.
