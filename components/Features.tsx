@@ -1,18 +1,21 @@
-// pages/Features.js or components/Features.js
 import React from 'react';
 import featuresData from '../data/featureData'; // Adjust the import path as necessary
 
 const Features = () => {
   return (
-    <div className="max-w-4xl text-center mx-auto p-5">
-      <h1 className="text-3xl font-bold  mb-10">Advanced Software Features</h1>
-      <div className="space-y-8 p-2">
+    <div className="w-full mx-auto p-8 ">
+      <h1 className="mb-10 text-3xl font-bold">Advanced Software Features</h1>
+      {/* Reduced gap and padding within grid container */}
+      <div className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-5">
         {featuresData.map((feature, index) => (
-          <div key={index} className="bg-white  shadow-lg rounded-lg p-4">
-            <div className='text-4xl '>
-          <feature.icon /></div>
-            <h2 className="text-2xl font-semibold">{feature.title}</h2>
-            <p className='pt-4'>{feature.description}</p>
+          <div key={index} className="flex flex-col items-center p-2 bg-white rounded-lg shadow-lg">
+            <div className="relative -mt-6">
+              <div className="p-2 text-white bg-teal-900 rounded-full">
+                {React.createElement(feature.icon)}
+              </div>
+            </div>
+            <h2 className="mt-2 text-xl text-center font-semibold">{feature.title}</h2>
+            <p className="pt-2">{feature.description}</p>
           </div>
         ))}
       </div>

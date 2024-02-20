@@ -26,7 +26,7 @@ export const processSteps: ProcessStep[] = [
       description: 'Quality assurance is not just a step in our process; it\'s woven into every stage of development. Our rigorous testing procedures ensure that every feature works as intended, with no detail overlooked. We conduct a variety of tests to identify and fix any issues, guaranteeing a high-quality product that you can rely on.'
     },
     {
-      title: '6. Live',
+      title: '6. Preview',
       description: 'Before the final launch, we conduct live testing to see how the software performs in a real-world environment. This crucial phase allows us to fine-tune the application, ensuring optimal performance, security, and user experience. Your feedback is invaluable here, as it helps us make the necessary adjustments to meet your exact needs.'
     },
     {

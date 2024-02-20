@@ -70,11 +70,6 @@ const servicesData: ServiceData[] = [
     title: 'Seamless Integrations',
     description: 'Connect your software ecosystem with seamless integrations. Our solutions can integrate with existing tools and platforms, ensuring smooth workflows and data synchronization across your business.',
   },
-  {
-    icon: <IntegrationIcon />, // Replace with a suitable icon for Web3/Blockchain
-    title: 'Web3 and Blockchain Integration',
-    description: 'Harness the power of Web3 and Blockchain to enhance security, transparency, and efficiency in your business operations. Our solutions enable decentralized applications, smart contracts, and secure transactions, empowering your business to leverage the latest in blockchain technology for trustless interactions and improved business models.',
-  },
 ];
 
 export default servicesData;

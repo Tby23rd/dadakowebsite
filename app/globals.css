@@ -24,6 +24,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  transition: background-color 0.3s, color 0.3s;
 }
 
 @layer utilities {
@@ -48,11 +49,12 @@ h1{
   --background-color: #121212;
   --text-color: #ffffff;
 }
-
-body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-  transition: background-color 0.3s, color 0.3s;
+.hexagon {
+  width: 100px; /* Adjust as needed */
+  height: 115px; /* Adjust as needed */
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
+
+
 
 

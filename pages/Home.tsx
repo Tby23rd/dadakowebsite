@@ -7,23 +7,23 @@ import IntroductionSection from '@/components/IntroductionSection';
 import CharityContribution from '@/components/charity';
 import About from './About';
 import FaqPage from './FAQ';
-import Projects from './Projects';
+import Projects from './Process';
 import Features from '@/components/Features';
 import ServicesOverview from '@/components/services';
+import ProcessTitle from '@/components/ProcessTitle';
 
 const Home: React.FC = () => {
 
   return (
-    <div className='bg-gray-100 '>
+    <div className='bg-white '>
       <Navbar/>
       <HeroSection/>
-      <Features/>
       <IntroductionSection/>
+      <Features/>
       <About/>
       <ServicesOverview/>
-      <Projects/>
+      <ProcessTitle/>
       <FaqPage/>
-      <CharityContribution/>
       <Footer/>
     </div>
   );

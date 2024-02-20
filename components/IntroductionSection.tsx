@@ -1,55 +1,21 @@
-// components/IntroductionSection.tsx
 import React from 'react';
-import {whyChooseUsData} from '../data/whyChooseUsData';
-import styles from '../styles/IntroductionSection.module.css';
+import { whyChooseUsData } from '../data/whyChooseUsData';
 
-
-const IntroductionSection: React.FC=() => {
-
+const IntroductionSection: React.FC = () => {
   return (
-    <div id='intro'>        
-      <h1 className="text-4xl font-bold ">Why Choose Us</h1>
-    <div className={styles.featuresContainer}>
-      {whyChooseUsData.map((section,index) => (
-        <div key={index} className={styles.feature}>
-          <div className={styles.featureIcon}>{section.icon}</div>
-          <h2 className={styles.featureTitle}>{section.title}</h2>
-        </div>
-      ))}
-    </div>
-    </div>
-  );
-};
-
-{/** 
-    <div>
-              <h1 className="text-4xl font-bold">Why Choose Us </h1>
-      <div className="flex flex-wrap justify-between">
-        {whyChooseUsData.map((section, index) => {
-          const Icon = section.Icon;
-          return (
-            <div key={index} className="w-full md:w-1/2 lg:w-1/3 px-2 text-center">
-              <div className="bg-white dark:bg-gray-800 p-4 my-4 rounded-lg shadow-inner">
-                  <p className="text-gray-700 dark:text-gray-300 mr-2 font-bold text-3xl ">
-                    <Icon />
-                  </p>
-                  <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-                    {section.title}
-                  </h2>
-              </div>
-            </div>
-            
-          );
-        })}
+    <div className="w-full mx-auto p-4">
+      <h1 className="mb-10 text-3xl font-bold">Why Choose Us</h1>
+      {/* Reduced gap and padding within grid container */}
+      <div className="w-full grid gap-6 grid-cols-3 lg:grid-cols-6">
+        {whyChooseUsData.map((whyChooseUsData, index) => (
+          <div key={index} className="flex flex-col items-center p-2 bg-white rounded-lg shadow-lg">
+            <p className="lg:text-2xl text-sm font-bold">{whyChooseUsData.icon}</p>
+            <h2 className="mt-2 lg:text-xl text-sm text-center font-semibold">{whyChooseUsData.title}</h2>
+          </div>
+        ))}
       </div>
     </div>
   );
 };
 
-*/}
-
-
 export default IntroductionSection;
-
-
-
