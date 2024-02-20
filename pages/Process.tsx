@@ -1,7 +1,7 @@
 import React from 'react';
 import { processSteps } from '../data/processSteps';
 
-const Project = () => {
+const ProcessPage = () => {
   return (
     <div className="py-12 bg-white">
       <div className="w-full mx-auto px-4">
@@ -19,4 +19,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default ProcessPage;

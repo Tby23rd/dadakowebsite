@@ -17,11 +17,6 @@ const Navbar: React.FC = () => {
     closed: { opacity: 0, x: "-100%" },
   };
 
-  // Navigation function
-  const navigate = useCallback((path: string) => {
-    window.location.href = path;
-  }, []);
-
   // Toggle navigation
   const toggleNav = useCallback(() => {
     setNavOpen(!isNavOpen);
