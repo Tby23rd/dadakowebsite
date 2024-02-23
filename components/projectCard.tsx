@@ -47,7 +47,7 @@ const ProjectsCard: React.FC=() => {
 
 
   return (
-    <div className='bg-teal-900' id='portfolio'>
+    <div className='bg-gray-100' id='portfolio'>
       <h1 className="text-4xl font-bold text-center p-8 m-8">Explore some of our Innovative Projects Portfolio</h1>
       <div className="  p-8 m-8 ">
         <Slider {...settings}>
