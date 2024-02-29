@@ -1,8 +1,6 @@
 "use client"
 import React from 'react';
-import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
-import Footer from '../components/Footer';
 import IntroductionSection from '@/components/IntroductionSection';
 import About from './About';
 import FaqPage from './FAQ';
@@ -14,7 +12,6 @@ const Home: React.FC = () => {
 
   return (
     <div className='bg-white '>
-      <Navbar/>
       <HeroSection/>
       <IntroductionSection/>
       <Features/>
@@ -22,7 +19,6 @@ const Home: React.FC = () => {
       <ProcessTitle/>
       <ProjectsCard/>
       <FaqPage/>
-      <Footer/>
     </div>
   );
 }

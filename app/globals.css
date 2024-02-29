@@ -29,6 +29,14 @@ h1{
   font-weight: bolder;
   text-align: center;
 }
+/* In your global CSS file or a separate CSS file */
+
+.slick-prev:before,
+.slick-next:before {
+ color: rgb(6, 53, 70) !important; /* Replace 'red' with your desired color */
+}
+
+
 
 
 

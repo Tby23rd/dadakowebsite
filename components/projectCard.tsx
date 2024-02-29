@@ -4,24 +4,26 @@ import Card from '@/components/cards';
 import useCases from '@/data/useCases'; // Adjust the import path as necessary
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { useRouter } from 'next/router';
+import { useCallback } from 'react';
 
 
 const ProjectsCard: React.FC=() => {
-  
-  const navigate = (path: string) => {
-  };
 
+  const navigate=useCallback((path: string) => {
+    window.location.href=path
+  },[]
+  );
+  
   // Use 'navigate' in place of 'handleElaborate' for more intuitive naming
-  const handleElaborate = (path: string) => {
-    navigate(`/some-route/${path}`); // Adjust the URL structure as necessary
+  const handleElaborate=(path: string) => {
+    navigate(`/softwaredocs/${path}`); // Adjust the URL structure as necessary
   };
 
 
   // Slider settings
   const settings={
     infinite: true,
-    arrows: true,         // Show prev/next arrows
+    arrows: true,
     speed: 500,
     dots: false,
     slidesToShow: 3, // Default value for large screens
@@ -47,7 +49,7 @@ const ProjectsCard: React.FC=() => {
 
 
   return (
-    <div className='bg-gray-100' id='portfolio'>
+    <div id='portfolio'>
       <h1 className="text-4xl font-bold text-center p-8 m-8">Explore some of our Innovative Projects Portfolio</h1>
       <div className="  p-8 m-8 ">
         <Slider {...settings}>

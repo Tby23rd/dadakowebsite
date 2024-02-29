@@ -12,8 +12,8 @@ const Footer: React.FC=() => {
   );
 
   return (
-    <footer className='w-full bg-white m-2'>
-      <div className='md:flex justify-between p-2'>
+    <footer className='w-full m-2 shadow-xl bg-white'>
+      <div className='md:flex m-auto border-t rounded-xl  justify-between p-2'>
         <div className='text-xl  p-2'>
           <h3 className='text-2xl text-center font-bold p-2'>Follow Us</h3>
             {/* Navigation links */}
@@ -21,19 +21,15 @@ const Footer: React.FC=() => {
               FAQ
             </p>
 
-            <p className='text-xl  p-2' onClick={() => navigate('/#terms-of-service')}>
-              TERMS OF SERVICE
-            </p>
-            <p className='text-xl  p-2' onClick={() => navigate('/#privacy-policy')}>
-              PRIVACY POLICY
+            <p className='text-xl  p-2' onClick={() => navigate('/privacy&terms')}>
+              Privacy & Terms
             </p>
         </div>
 
 
         <div className='text-xl  p-2'>
           <h3 className='text-2xl text-center font-bold p-2'>Opening Hours</h3>
-          <p className='text-xl p-2'>Monday - Friday: 8 am to 8 pm</p>
-          <p className='text-xl p-2'>Saturday - Sunday: 9 am to 6 pm</p>
+          <p className='text-xl p-2'>Monday - Sunday: 8 am to 8 pm</p>
           <p className='text-xl p-2'>Address: Calgary, Alberta, Canada</p>
         </div>
         <div className='text-xl  p-2'>
