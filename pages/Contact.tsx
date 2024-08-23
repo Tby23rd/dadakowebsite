@@ -7,7 +7,7 @@ const Contact=() => {
   return (
     <div className="p-6" id='contact'>
       <div className="max-w-3xl mx-auto">
-        <form name="contact" method="POST" data-netlify="true" className="mt-8 bg-gray-100 p-6 rounded-lg shadow-md">
+        <form name="contact" method="POST" className="mt-8 bg-gray-100 p-6 rounded-lg shadow-md">
           <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name:</label>
           <input type="text" id="name" name="name" className="mt-1 p-2 w-full border rounded-md" required />
           <label htmlFor="phone" className="block mt-4 text-sm font-medium text-gray-700">Phone:</label>

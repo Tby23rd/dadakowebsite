@@ -19,7 +19,7 @@ const Soon = () => {
           className="mx-auto w-40 animate-pulse"
         />
         <div className="mt-8">
-        <form name="notify" method="POST" data-netlify="true">
+        <form name="notify" method="POST" >
           <input
             type="email"
             placeholder="Enter your email"
