@@ -48,12 +48,12 @@ const NewsComponent: React.FC=() => {
 
   return (
     <div className="p-6 rounded-lg shadow-lg">
-      <h1 className="text-4xl font-bold dark:text-white">Top News Related to Technology</h1>
+      <h1 className="text-4xl font-bold ">Top News Related to Technology</h1>
       <div className="flex flex-row flex-wrap justify-between">
         {articles.map((article, index) => (
-          <div key={index} className="lg:w-1/4 md:w-1/2 p-4 bg-white dark:bg-gray-800 rounded-lg shadow-inner mt-1 mb-4">
-            <h2 className="font-semibold text-gray-900 dark:text-white mb-2">{article.title}</h2>
-            <p className="text-gray-700 dark:text-gray-400 mb-2">{article.description}</p>
+          <div key={index} className="lg:w-1/4 md:w-1/2 p-4 bg-white  rounded-lg shadow-inner mt-1 mb-4">
+            <h2 className="font-semibold text-gray-900  mb-2">{article.title}</h2>
+            <p className="text-gray-700 text-gray-400 mb-2">{article.description}</p>
             {article.urlToImage && (
               <Link href={article.url}>
                 <span className="block mt-2">
