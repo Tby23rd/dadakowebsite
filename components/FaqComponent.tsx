@@ -49,7 +49,7 @@ const toggleAccordion = (index: number) => {
               onClick={() => toggleAccordion(index)}
               className="text-left w-full flex justify-between items-center"
             >
-              <div className="text-lg font-medium text-gray-700 dark:text-gray-400">
+              <div className="text-lg font-medium text-black ">
                 {item.question}
               </div>
               <svg
@@ -70,7 +70,7 @@ const toggleAccordion = (index: number) => {
               </svg>
             </button>
             {activeQuestionIndex === index && (
-              <p className="mt-4 text-base text-gray-700 dark:text-gray-400">
+              <p className="mt-4 text-base text-black ">
                 {item.answer}
               </p>
             )}

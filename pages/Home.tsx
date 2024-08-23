@@ -13,7 +13,7 @@ import FaqPage from './FAQ';
 const Home: React.FC = () => {
 
   return (
-    <div className='bg-gray-100'>
+    <div className='bg-gray-100 dark:bg-gray-800 '>
       <Navbar/>
       <HeroSection/>
       <IntroductionSection/>

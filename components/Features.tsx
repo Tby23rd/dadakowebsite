@@ -28,7 +28,7 @@ interface FeatureProps {
 
 const Feature: React.FC<FeatureProps> = ({ title, icon,description }) => {
   return (
-    <div className={styles.feature}>
+    <div className={styles.feature} id='features'>
       <div className={styles.featureIcon}>{icon}</div>
       <h2 className={styles.featureTitle}>{title}</h2>
       <p className={styles.featureDescription}>{description}</p>
@@ -51,41 +51,42 @@ const Features: React.FC = () => {
             {
               icon: <DevelopmentIcon />,
               title: 'Custom Software Development',
-              description: 'We offer tailored software solutions to meet specific client needs, providing a unique blend of creativity and technical expertise.',
+              description: 'We offer tailored software solutions, blending creativity and technical expertise to meet specific client needs.'
             },
             {
                 icon: <WebIcon />,
 
               title: 'Web Development Services',
-              description: 'We specialize in creating responsive, user-friendly websites, with proficiency in various web development languages and frameworks.',
+              description: 'We specialize in creating responsive and user-friendly websites, with proficiency in various web development languages and frameworks.'
             },
             {
                 icon: <ConsultingIcon />,
 
               title: 'Software Consulting',
-              description: 'Our software consulting services offer strategic advice, system recommendations, and implementation guidance to help clients choose the best software solutions for their business needs.',
+              description: 'Our software consulting team offers the most advanced system recommendations and implementation to ensure clients have the best software available for their operational needs.'
             },
             {
                 icon: <QualityAssuranceIcon />,
 
               title: 'Quality Assurance',
-              description: 'We prioritize quality assurance to ensure the reliability and robustness of the software solutions we create. Our rigorous testing procedures and standards guarantee the highest quality software.',
+              description: 'We prioritize quality assurance to lock in the reliability of the software solutions we create. Our standards and rigorous testing procedures guarantee the highest quality software.'
             },
             {
                 icon: <CustomerServiceIcon />,
               title: 'Transparent Communication',
-              description: 'We believe in keeping our clients informed throughout the software development process. We provide regular updates on project progress, maintain open lines of communication, and keep our clients updated on project timelines and costs.',
+              description:'We believe in keeping you informed throughout the entire process. We provide regular updates on project progress, maintain open lines of communication, and guarantee complete transparency of all project timelines and costs.' 
             },
             {
             icon: <SupportIcon />,
               title: 'On-Going Maintenance and Support',
-              description: 'We offer on-going maintenance and support for our software solutions, ensuring long-term success for our clients. Our support policies, update schedules, and troubleshooting services are designed to keep your software running smoothly.',
+              description: 'We offer ongoing maintenance and support for our software solutions, ensuring long-term success for our clients. Our support policies, update schedules, and troubleshooting services are designed to keep your software running smoothly.'
+
             },
         ];
         
   return (
     <div>
-        <h1 className="text-4xl font-bold">
+        <h1 className="text-4xl font-bold dark:text-white">
         Our Features</h1>
       <FeaturesContainer features={featureData} />
     </div>
