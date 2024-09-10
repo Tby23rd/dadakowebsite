@@ -52,7 +52,7 @@ const Navbar=() => {
                 alt="Logo" width={40} height={40} className="rounded-full" />
             </div>
 
-             {/* Dark Mode Toggle */}
+             {/* Dark Mode Toggle
              <div className="flex items-center md:ml-4">
               <label htmlFor="dark-mode-toggle" className="relative flex items-center cursor-pointer">
                 <input
@@ -74,6 +74,9 @@ const Navbar=() => {
                 {isDarkMode ? 'Dark' : 'Light'}
               </span>
             </div>
+             
+             */}
+             
           </div>
 
 
