@@ -1,14 +1,14 @@
 {/**import both privacy and terms */}
+import PrivacyPolicy from '@/components/other/Privacy-Policy';
+import TermsOfUse from '@/components/other/Terms-Of-Use';
 import React from 'react';
-import PrivacyPolicy from '../other/Privacy-Policy';
-import TermsofUse from './Terms-Of-Use';
 
 const PrivacyTerms: React.FC = () => {
     
     return (
         <div className=' '>
           <PrivacyPolicy/>
-          <TermsofUse/>
+          <TermsOfUse/>
         </div>
       );
 }
