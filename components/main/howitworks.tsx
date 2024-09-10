@@ -9,7 +9,7 @@ const steps = [
     description: "We start by creating a professional website tailored to your startup's unique needs. This serves as the online foundation for your business, showcasing your mission, vision, and offerings to the world.",
     image: "/images/w.png",
     buttonText: "View Sample Website",
-    buttonLink: "/contact"
+    buttonLink: "https://bomafem.com/"
   },
   {
     step: "Step 2 (1 Month)",
@@ -25,7 +25,7 @@ const steps = [
     description: "Finally, we bring your vision to life with a fully functional web application. This is where your startup truly takes off, with features designed to scale your business and meet your users' needs.",
     image: "/images/p6.png",
     buttonText: "View Sample App",
-    buttonLink: "/contact"
+    buttonLink: "https://app.bomafem.com/"
   },
 ];
 
