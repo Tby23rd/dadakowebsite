@@ -5,36 +5,36 @@ export interface ProcessStep {
 }
 
 export const processSteps: ProcessStep[] = [
-    {
-      title: '1. Idea',
-      description: 'Every great project begins with a conversation. We start by getting to know you, your business, and your goals. This initial consultation allows us to understand the challenges you\'re facing and the opportunities ahead. Our team listens intently, ensuring we capture every detail to form a solid foundation for your project.'
-    },
-    {
-      title: '2. Design',
-      description: 'With your vision in mind, we move to the design phase where our creative and technical experts collaborate to craft the blueprint of your software. This stage is all about innovation and functionality, bringing together user-friendly interfaces with powerful features that serve your business needs. We keep you involved, gathering feedback to refine our designs until they perfectly align with your vision.'
-    },
-    {
-      title: '3. Docs',
-      description: 'Transparency is key to our process. Before a single line of code is written, we document every aspect of the project. This comprehensive documentation ensures that everyone involved has a clear understanding of the software\'s scope, features, and the solutions it aims to provide. It serves as a roadmap, guiding our development efforts and ensuring alignment with your objectives.'
-    },
-    {
-      title: '4. Code',
-      description: 'This is where our skilled developers bring the project to life. Using cutting-edge technologies and best coding practices, we build your software with efficiency and scalability in mind. Our personalized project management approach keeps you informed at every step, ensuring the backend operations seamlessly support your business\'s daily needs.'
-    },
-    {
-      title: '5. Test',
-      description: 'Quality assurance is not just a step in our process; it\'s woven into every stage of development. Our rigorous testing procedures ensure that every feature works as intended, with no detail overlooked. We conduct a variety of tests to identify and fix any issues, guaranteeing a high-quality product that you can rely on.'
-    },
-    {
-      title: '6. Preview',
-      description: 'Before the final launch, we conduct live testing to see how the software performs in a real-world environment. This crucial phase allows us to fine-tune the application, ensuring optimal performance, security, and user experience. Your feedback is invaluable here, as it helps us make the necessary adjustments to meet your exact needs.'
-    },
-    {
-      title: '7. Editing',
-      description: 'With insights gathered from live testing, we make the final edits to polish your software. This phase is about refining the details, enhancing functionality, and ensuring that the software not only meets but exceeds your expectations.'
-    },
-    {
-      title: '8. Launch',
-      description: 'The journey doesn\'t end at launch. We stand by our software, offering ongoing support to ensure its continued success. As your business grows, we\'re here to help your software evolve, ensuring it remains a vital tool in your company\'s growth and efficiency.'
-    }
-  ];
+  {
+    title: '1. Risk Identification',
+    description: 'Every risk management journey starts with understanding your unique business landscape. We begin by identifying potential risks through thorough consultations and analysis, ensuring we capture every challenge and opportunity your business faces.'
+  },
+  {
+    title: '2. Strategy Design',
+    description: 'With a clear understanding of the risks, we craft a tailored risk management strategy. This phase combines innovative approaches with practical solutions, ensuring a balanced and effective plan. Your input is vital as we refine strategies to align with your business goals.'
+  },
+  {
+    title: '3. Documentation',
+    description: 'Transparency is at the heart of our process. We document every aspect of the risk management plan, providing a clear roadmap that outlines objectives, strategies, and implementation steps. This ensures all stakeholders are aligned and informed.'
+  },
+  {
+    title: '4. Implementation',
+    description: 'Our experts put the strategy into action, integrating risk mitigation measures seamlessly into your operations. Using the latest technologies and best practices, we ensure these solutions are scalable and efficient, meeting your business’s needs as they evolve.'
+  },
+  {
+    title: '5. Testing and Validation',
+    description: 'We rigorously test the implemented solutions to ensure they perform effectively. This includes stress-testing scenarios and evaluating the robustness of the risk management measures, guaranteeing they are ready for real-world challenges.'
+  },
+  {
+    title: '6. Real-World Simulation',
+    description: 'Before finalizing the solution, we conduct simulations to observe how the risk management measures perform in real-life situations. This helps us fine-tune the approach, ensuring optimal performance and effectiveness.'
+  },
+  {
+    title: '7. Refinement',
+    description: 'Based on the insights from testing and simulations, we refine and enhance the risk management strategies. This phase ensures every detail is optimized for your business’s success and resilience.'
+  },
+  {
+    title: '8. Continuous Support and Monitoring',
+    description: 'Risk management is an ongoing process. After launch, we provide continuous support and monitoring, helping your business stay ahead of emerging risks and adapting strategies as needed to maintain resilience and growth.'
+  }
+];

@@ -21,7 +21,7 @@ const GetInTouchButton: React.FC = () => {
   };
 
   return (
-    <button onClick={openTidioChat} className="bg-teal-900 whitespace-nowrap hover:bg-teal-700 text-white font-bold py-2 px-4 rounded">
+    <button onClick={openTidioChat} className="bg-green-900 whitespace-nowrap hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
       Get in Touch
     </button>
   );

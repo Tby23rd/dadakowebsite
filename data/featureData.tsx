@@ -1,6 +1,4 @@
 // Import Material-UI icons
-import AIBot from '@mui/icons-material/Adb'; // Example icon for AI Integration
-import Blockchain from '@mui/icons-material/AccountBalance'; // Example icon for Web3 and Blockchain Integration
 import Code from '@mui/icons-material/Code'; // Example icon for Custom Software Development
 import DesignServices from '@mui/icons-material/DesignServices'; // Example icon for User-Centric Design
 import Security from '@mui/icons-material/Security'; // Example icon for Data Security and Privacy
@@ -9,60 +7,63 @@ import Cloud from '@mui/icons-material/Cloud'; // Example icon for Cloud-Based S
 import Analytics from '@mui/icons-material/Assessment'; // Example icon for Analytics and Reporting
 import Integration from '@mui/icons-material/SettingsEthernet'; // Example icon for Seamless Integrations
 import Support from '@mui/icons-material/ContactSupport'; // Example icon for Continuous Support and Maintenance
-
+import Insights from '@mui/icons-material/Insights';
+// Example icon for Risk Assessment and Insights
+import Shield from '@mui/icons-material/Shield';
 
 const featuresData = [
   {
-    icon: AIBot,
-    title: "Artificial Intelligence (AI) Integration",
-    description: "Automate and enhance decision-making with our AI solutions, streamlining operations and improving customer service.",
+    icon: Insights,
+    title: "Risk Assessment and Insights",
+    description: "Identify and evaluate potential risks with our comprehensive risk assessment tools, ensuring informed decision-making.",
   },
   {
-    icon: Blockchain,
-    title: "Web3 and Blockchain Integration",
-    description: "Enhance security and efficiency with decentralized applications and secure blockchain transactions.",
+    icon: Shield,
+    title: "Advanced Risk Mitigation",
+    description: "Implement effective strategies to minimize risks and protect your business operations.",
   },
   {
     icon: Code,
-    title: "Custom Software Development",
-    description: "We build custom software solutions tailored to your business needs for seamless workflow integration.",
+    title: "Custom Risk Management Solutions",
+    description: "Tailored software solutions designed to address your specific business risks and challenges.",
   },
   {
     icon: DesignServices,
-    title: "User-Centric Design",
-    description: "Our digital tools prioritize accessibility and ease of use, ensuring they meet the needs of all users.",
+    title: "User-Centric Risk Tools",
+    description: "Our tools prioritize usability and accessibility, ensuring that risk management processes are simple and effective.",
   },
   {
     icon: Security,
-    title: "Data Security and Privacy",
-    description: "Our software solutions prioritize data protection, ensuring compliance with industry standards.",
+    title: "Data Security and Compliance",
+    description: "Ensure your data is secure and compliant with industry regulations, safeguarding your business and customers.",
   },
   {
     icon: Architecture,
-    title: "Scalable Architecture",
-    description: "Our scalable software solutions grow with your business, allowing for easy updates and expansions.",
+    title: "Scalable Risk Solutions",
+    description: "Our risk management systems are designed to grow with your business, adapting to new challenges as they arise.",
   },
   {
     icon: Cloud,
-    title: "Cloud-Based Solutions",
-    description: "Access your data and applications from anywhere with our flexible, cloud-based software.",
+    title: "Cloud-Based Risk Management",
+    description: "Access your risk management tools from anywhere with our secure, cloud-based solutions.",
   },
   {
     icon: Analytics,
-    title: "Analytics and Reporting",
-    description: "Gain valuable business insights with our comprehensive analytics and reporting features.",
+    title: "Risk Analytics and Reporting",
+    description: "Gain actionable insights with detailed risk analytics and reporting to support strategic planning.",
   },
   {
     icon: Integration,
-    title: "Seamless Integrations",
-    description: "Ensure smooth workflows with our solutions that integrate seamlessly with your existing tools.",
+    title: "Integration with Existing Systems",
+    description: "Our solutions seamlessly integrate with your current systems to streamline risk management processes.",
   },
   {
     icon: Support,
-    title: "Continuous Support and Maintenance",
-    description: "Benefit from our ongoing support and maintenance to keep your software up to date and performing optimally.",
+    title: "Ongoing Support and Updates",
+    description: "Receive continuous support and updates to keep your risk management tools performing optimally.",
   },
 ];
+
 
 export default featuresData;
 

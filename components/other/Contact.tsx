@@ -17,7 +17,7 @@ const Contact=() => {
           <textarea id="message" name="message" className="mt-1 p-2 w-full border rounded-md" required></textarea>
 
           <div className="flex justify-center items-center space-x-4"> {/* Adjust flex properties as needed */}
-            <button type="submit" className="bg-teal-900 whitespace-nowrap hover:bg-teal-700 text-white font-bold p-2 px-4 rounded">
+            <button type="submit" className="bg-green-900 whitespace-nowrap hover:bg-green-700 text-white font-bold p-2 px-4 rounded">
               Submit
             </button>
             <GetInTouchButton />

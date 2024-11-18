@@ -22,7 +22,7 @@ const Card: React.FC<CardProps> = ({ imageUrl, title, techStack, description, pa
         <p className="text-gray-600 text-sm mb-4">{description}</p> {/* Display the description */}
         <button
           onClick={() => onElaborate(path)} // Pass path to the onElaborate function
-          className="bg-teal-900 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded"
+          className="bg-green-900 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
         >
           Elaborate
         </button>
