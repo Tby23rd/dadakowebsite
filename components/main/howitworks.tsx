@@ -5,27 +5,27 @@ import { motion } from 'framer-motion';
 const steps = [
   {
     step: "Step 1 (1 Week)",
-    title: "Assess Your Business Risks",
-    description: "We begin by conducting a comprehensive risk assessment tailored to your business. This step identifies potential vulnerabilities and helps you understand the risk landscape.",
-    image: "/images/t.jpg",
-    buttonText: "Learn More",
-    buttonLink: "https://calendly.com/advisor-triverisk/1-1-on-trive-risk"
+    title: "Develop Your Website",
+    description: "We start by creating a professional website tailored to your startup's unique needs. This serves as the online foundation for your business, showcasing your mission, vision, and offerings to the world.",
+    image: "/images/w.png",
+    buttonText: "View Sample Website",
+    buttonLink: "https://bomafem.com/"
   },
   {
     step: "Step 2 (1 Month)",
-    title: "Develop a Risk Mitigation Plan",
-    description: "Next, we create a customized risk mitigation plan, focusing on strategies to address identified risks and improve your business resilience.",
-    image: "/images/t1.jpg",
-    buttonText: "Request Sample Plan",
-    buttonLink: "https://calendly.com/advisor-triverisk/1-1-on-trive-risk"
+    title: "Launch Your Demo Application",
+    description: "Next, we develop a demo version of your web application with read-only data. This allows you to present your concept to investors, customers, and stakeholders, providing them with a tangible experience of your product.",
+    image: "/images/s5.png",
+    buttonText: "View Sample Demo",
+    buttonLink: "https://demo.bomafem.com/"
   },
   {
-    step: "Step 3 (Ongoing)",
-    title: "Implement and Monitor Solutions",
-    description: "Finally, we work with you to implement the solutions and provide ongoing monitoring. This ensures your business stays protected and prepared for future challenges.",
-    image: "/images/t2.jpg",
-    buttonText: "Explore Services",
-    buttonLink: "https://forms.gle/eM8ZNZE5znnDGkyB6"
+    step: "Step 3 (Dependent on Features)",
+    title: "Build Your Full Web Application",
+    description: "Finally, we bring your vision to life with a fully functional web application. This is where your startup truly takes off, with features designed to scale your business and meet your users' needs.",
+    image: "/images/p6.png",
+    buttonText: "View Sample App",
+    buttonLink: "https://app.bomafem.com/"
   },
 ];
 
@@ -40,7 +40,7 @@ const SignUpSection: React.FC = () => {
 
   return (
     <div className="max-w-7xl mx-auto py-20 px-6">
-      <h2 className="text-4xl font-bold text-center mb-12">How We Help</h2>
+      <h2 className="text-4xl font-bold text-center mb-12">How It Works</h2>
       <div className="space-y-16">
         {steps.map((step, index) => (
           <motion.div
@@ -66,7 +66,7 @@ const SignUpSection: React.FC = () => {
               <p className="text-lg mb-6">{step.description}</p>
               <button
                 onClick={() => handleButtonClick(step.buttonLink)}
-                className="px-6 py-3 text-lg font-semibold text-white bg-green-900 rounded-md hover:bg-green-700"
+                className="px-6 py-3 text-lg font-semibold text-white bg-teal-900 rounded-md hover:bg-teal-700"
                 rel="noopener noreferrer"
               >
                 {step.buttonText}

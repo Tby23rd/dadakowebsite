@@ -1,40 +1,43 @@
 // data/whyChooseUsData.ts
 import LocalAtmIcon from '@mui/icons-material/LocalAtm';
-import SecurityIcon from '@mui/icons-material/Security';
-import InsightsIcon from '@mui/icons-material/Insights';
+import BuildIcon from '@mui/icons-material/Build';
+import WomanIcon from '@mui/icons-material/Woman'; // Assuming you have a suitable icon component named WomanIcon
 import InnovationIcon from '@mui/icons-material/FiberNew';
 import SupervisorAccountIcon from '@mui/icons-material/SupervisorAccount';
 import PartnersIcon from '@mui/icons-material/Handshake';
 
 export const whyChooseUsData = [
   {
-    icon: <LocalAtmIcon />,
-    title: 'Local Expertise',
-    description: 'Rooted in Calgary, with a deep understanding of local business challenges.'
+    icon: <LocalAtmIcon/>,
+    title: 'Local Company',
+    description: 'Local presence with a focus on Calgary.'
   },
   {
-    icon: <SecurityIcon />,
-    title: 'Comprehensive Risk Solutions',
-    description: 'End-to-end risk assessment and mitigation strategies.'
+    icon: <BuildIcon/>,
+    title: 'Customized Solutions',
+    description: 'Tailored software solutions for your unique needs.'
   },
+    {
+      icon: <WomanIcon />, // Assuming you have a suitable icon component named WomanIcon
+      title: '100% Woman-Owned & Operated',
+      description: 'Exclusively run by women, specializing in supporting other female-led businesses.'
+    },
+  
   {
-    icon: <InsightsIcon />,
-    title: 'Data-Driven Insights',
-    description: 'Empowering your business with actionable risk insights.'
+    icon: <InnovationIcon/>,
+    title: 'Commitment to Innovation',
+    description: 'Staying ahead with the latest technologies.'
   },
+  
   {
-    icon: <InnovationIcon />,
-    title: 'Innovative Strategies',
-    description: 'Leveraging cutting-edge technology to manage risks effectively.'
+    icon: <SupervisorAccountIcon/>,
+    title: 'Exceptional Client Service',
+    description: 'Clear communication and active involvement in development.'
   },
+  
   {
-    icon: <SupervisorAccountIcon />,
-    title: 'Dedicated Client Support',
-    description: 'Proactive communication and personalized guidance throughout our partnership.'
-  },
-  {
-    icon: <PartnersIcon />,
-    title: 'Strategic Partnerships',
-    description: 'Collaborating to build resilient and sustainable business models.'
+    icon: <PartnersIcon/>,
+    title: 'Sustainable Growth Partnership',
+    description: 'Your partner in achieving sustainable growth.'
   }
 ];

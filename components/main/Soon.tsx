@@ -8,7 +8,7 @@ const Soon = () => {
 
 
   return (
-    <div className="flex justify-center items-center h-screen bg-gradient-to-r from-green-900 to-gray-700">
+    <div className="flex justify-center items-center h-screen bg-gradient-to-r from-teal-900 to-gray-700">
       <div className="text-center">
         <h1 className="text-5xl font-bold text-white mb-4">Coming Soon</h1>
         <p className="text-lg text-white mb-8">We&apos;re working hard to bring you something awesome!</p>
@@ -28,7 +28,7 @@ const Soon = () => {
             onChange={(e) => setEmail(e.target.value)}
           />
           <button
-            className="bg-green-500 text-white font-bold p-4 m-2 rounded-r-lg hover:bg-green-300 transition duration-300"
+            className="bg-teal-500 text-white font-bold p-4 m-2 rounded-r-lg hover:bg-teal-300 transition duration-300"
           >
             Notify Me!
           </button>

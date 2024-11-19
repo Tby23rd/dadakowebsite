@@ -17,6 +17,7 @@ const Navbar=() => {
     {href: '/',label: 'Home'},
     {href: '/#about',label: 'About'},
     {href: "/#features",label: 'Features'},
+    {href: "/#portfolio",label: 'Portfolio'},
     {href: "/#faq",label: 'FAQS'}
   ];
 
@@ -61,7 +62,7 @@ const Navbar=() => {
                   onChange={toggleDarkMode}
                   className="hidden"
                 />
-                <div className="w-12 h-6 bg-green-900  rounded-full flex items-center">
+                <div className="w-12 h-6 bg-teal-900  rounded-full flex items-center">
                   <span
                     className={`block w-5 h-5 bg-white rounded-full transform transition-transform ${
                       isDarkMode ? 'translate-x-6' : ''
@@ -102,7 +103,7 @@ const Navbar=() => {
               </span>
             ))}
             <Link href="/#portfolio">
-              <button className="text-white hover:bg-green-700 bg-green-900 font-semibold  py-2 px-4 border  rounded">
+              <button className="text-white hover:bg-teal-700 bg-teal-900 font-semibold  py-2 px-4 border  rounded">
                 View Our Work
               </button>
             </Link>
@@ -126,7 +127,7 @@ const Navbar=() => {
               </span>
             ))}
             <Link href="/#portfolio">
-              <button className="text-white hover:bg-green-700 bg-green-900 font-semibold  py-2 px-4 border  rounded">
+              <button className="text-white hover:bg-teal-700 bg-teal-900 font-semibold  py-2 px-4 border  rounded">
                 View Our Work
               </button>
             </Link>

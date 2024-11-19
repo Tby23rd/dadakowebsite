@@ -10,28 +10,27 @@ const FaqComponent: React.FC = () => {
 
   const faqItems: FaqItem[] = [
     {
-      question: 'What services does Trive Risk provide?',
-      answer: 'Trive Risk offers comprehensive risk management solutions, including risk assessment, mitigation planning, and ongoing monitoring to help businesses navigate uncertainties and build resilience.'
+      question: 'What kind of software solutions does Dadako Software provide?',
+      answer: 'Dadako Software provides a range of software solutions tailored to startups and small businesses, including web development, mobile app development, and custom software solutions.'
     },
     {
-      question: 'How can Trive Risk help my business manage risks effectively?',
-      answer: 'We specialize in identifying potential risks, developing tailored mitigation strategies, and providing tools to monitor and address risks proactively, ensuring your business stays protected and prepared for future challenges.'
+      question: 'What types of software solutions does your company offer?',
+      answer: 'We specialize in developing cutting-edge software solutions tailored to startups and small businesses, focusing on web development, mobile app development, and custom software solutions.'
     },
     {
-      question: 'How does Trive Risk ensure its solutions are scalable?',
-      answer: 'Our solutions are designed with scalability in mind, allowing businesses to adapt as they grow. We leverage cutting-edge technologies and frameworks to ensure our tools can handle increasing complexity and volume.'
+      question: 'How do you ensure the software solutions you develop are scalable?',
+      answer: 'Our expert team crafts software designed to adapt, scale, and contribute to your bottom line. We adhere to DevOps, Agile, and Lean project management tactics to ensure our solutions meet the growing needs of your business.'
     },
     {
-      question: 'What is Trive Risk’s approach to developing risk management strategies?',
-      answer: 'We follow a structured process that includes thorough business analysis, risk identification, strategy development, and implementation. Our goal is to deliver actionable solutions within 2 to 6 months, depending on the scope and complexity.'
+      question: 'What is the process for software development for startups with your company?',
+      answer: 'We guide startups through the entire process, from business analysis and creating a technical development strategy to end-to-end implementation, reliable support, and further scaling. We aim to complete projects within  2 to  6 months from starting the MVP development to its market validation.'
     },
     {
-      question: 'How does Trive Risk ensure the security and reliability of its solutions?',
-      answer: 'Security is a top priority at Trive Risk. We use the latest frameworks and technologies to safeguard your data and systems, ensuring compliance with industry standards and protecting your business from potential threats.'
+      question: 'What guarantees do you offer regarding the security and reliability of the software solutions?',
+      answer: 'We prioritize clean code and supreme safety from security issues. We implement the latest frameworks, architecture designs, and advanced technologies to ensure our software solutions are secure and reliable. We also have a high retention rate of customers after MVP development.'
     }
     // Add more FAQ items here
   ];
-  
 
 
 const toggleAccordion = (index: number) => {

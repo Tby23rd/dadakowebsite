@@ -13,7 +13,7 @@ const ElaborateButton: React.FC<ElaborateButtonProps> = ({ path }) => {
   return (
     <button
       onClick={navigate} // Use navigate as the event handler directly
-      className="bg-green-900 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+      className="bg-teal-900 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded"
     >
      Elaborate
     </button>

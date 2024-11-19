@@ -30,12 +30,14 @@ const Footer: React.FC=() => {
         <div className='text-xl  p-2'>
           <h3 className='text-2xl text-center font-bold p-2'>Opening Hours</h3>
           <p className='text-xl p-2'>Monday - Sunday: 8 am to 8 pm</p>
+          <p className='text-xl p-2'>Address: Calgary, Alberta, Canada</p>
         </div>
         <div className='text-xl  p-2'>
           <h3 className='text-2xl text-center font-bold p-4'>Contact Us</h3>
-          <p className='text-xl p-2'>Email: advisor@triveconsulting.com</p>
-          {/* Social media links
-           <p className='text-xl p-2'>
+          <p className='text-xl p-2'>Email: heather@dadakosoftware.com</p>
+          <p className='text-xl p-2'>Phone: 403-401-8643 </p>
+          {/* Social media links */}
+          <p className='text-xl p-2'>
             {' '}
             <a
               href="#"
@@ -67,21 +69,23 @@ const Footer: React.FC=() => {
             </a>
 
           </p>
-          
-          */}
-
         </div>
 
       </div>
+      <div className='border-t-2'>
+        <span className="text-sm italic text-center p-2 ">
+          In the spirit of respect, reciprocity and truth, we honour and acknowledge Moh’kinsstis, and the traditional Treaty 7 territory and oral practices of the Blackfoot confederacy: Siksika, Kainai, Piikani, as well as the Îyâxe Nakoda and Tsuut’ina nations. We acknowledge that this territory is home to the Métis Nation of Alberta, Region 3 within the historical Northwest Métis homeland. Finally, we acknowledge all Nations – Indigenous and non – who live, work and play on this land, and who honour and celebrate this territory.
+        </span>
 
+      </div>
       <div className="border-t-2 ">
-        <div className="text-green-900 mx-4 font-bold text-center ">
+        <div className="text-teal-900 mx-4 font-bold text-center ">
           <p>&copy; 2024
             <Link
-              href="https://triveconsulting.com/"
-              className="text-green-900 mx-2 font-bold text-center"
+              href="https://dadakosoftware.com/"
+              className="text-teal-900 mx-2 font-bold text-center"
             >
-              Trive Risk Consulting Inc.
+              Dadako Software Inc.
             </Link>
             All rights reserved.</p>
         </div>

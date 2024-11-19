@@ -10,7 +10,7 @@ const Features = () => {
         {featuresData.map((feature, index) => (
           <div key={index} className="flex flex-col items-center p-2  rounded-lg shadow-lg">
             <div className="relative -mt-6">
-              <div className="p-2 text-white bg-green-900 rounded-full">
+              <div className="p-2 text-white bg-teal-900 rounded-full">
                 {React.createElement(feature.icon)}
               </div>
             </div>
